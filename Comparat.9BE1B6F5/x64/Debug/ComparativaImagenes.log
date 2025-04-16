@@ -1,0 +1,24 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\andre\Documents\COMPUTACION_PARALELA\ComparativaImagenes>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\include"  -G   --keep-dir Comparat.9BE1B6F5\x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/FdComparat.9BE1B6F5\x64\Debug\vc143.pdb" -o C:\Users\andre\Documents\COMPUTACION_PARALELA\ComparativaImagenes\Comparat.9BE1B6F5\x64\Debug\kernel.cu.obj "C:\Users\andre\Documents\COMPUTACION_PARALELA\ComparativaImagenes\kernel.cu" 
+C:\Users\andre\Documents\COMPUTACION_PARALELA\Librerias\stb_image.h(4276): warning #550-D: variable "old_limit" was set but never used
+       unsigned int cur, limit, old_limit;
+                                ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+C:\Users\andre\Documents\COMPUTACION_PARALELA\Librerias\stb_image.h(5185): warning #550-D: variable "idata_limit_old" was set but never used
+                   stbi__uint32 idata_limit_old = idata_limit;
+                                ^
+  
+C:\Users\andre\Documents\COMPUTACION_PARALELA\Librerias\stb_image.h(6972): warning #550-D: variable "out_size" was set but never used
+          int out_size = 0;
+              ^
+  
+C:\Users\andre\Documents\COMPUTACION_PARALELA\Librerias\stb_image.h(6973): warning #550-D: variable "delays_size" was set but never used
+          int delays_size = 0;
+              ^
+  
+  kernel.cu
+  tmpxft_00002dc0_00000000-7_kernel.cudafe1.cpp
+  ComparativaImagenes.vcxproj -> C:\Users\andre\Documents\COMPUTACION_PARALELA\ComparativaImagenes\x64\Debug\ComparativaImagenes.exe
